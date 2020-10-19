@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace WpfAppCoreMVVMTemplate.ViewModels.Base
@@ -6,9 +7,10 @@ namespace WpfAppCoreMVVMTemplate.ViewModels.Base
     /// <summary>
     /// Базовый класс для ViewModels
     /// </summary>
-    internal abstract class ViewModelBase : INotifyPropertyChanged
+    internal abstract class ViewModelBase : INotifyPropertyChanged, IDisposable
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
 
         /// <summary>
         /// 
@@ -45,6 +47,39 @@ namespace WpfAppCoreMVVMTemplate.ViewModels.Base
             OnPropertyChanged(propertyName);
             return true;
         }
+
+
+
+        #region IDISPOSABLE
+
+        private bool _disposed;
+
+        ///// <summary>
+        ///// Деструктор (если вдруг)
+        ///// </summary>
+        //~ViewModelBase()
+        //{
+        //    Dispose(false);
+        //}
+
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+
+
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposing || _disposed) { return; }
+
+            _disposed = true;
+            // Освобождение управляемых ресурсов
+
+        }
+
+        #endregion
+
 
     }
 
