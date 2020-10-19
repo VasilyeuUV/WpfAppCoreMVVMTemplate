@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\App.xaml
-11151548125
+11895717287
 
-431877424
+5-332470369
 1921654412462
-MainWindow.xaml;
+Views\Windows\MainWindow.xaml;
 
 False
 

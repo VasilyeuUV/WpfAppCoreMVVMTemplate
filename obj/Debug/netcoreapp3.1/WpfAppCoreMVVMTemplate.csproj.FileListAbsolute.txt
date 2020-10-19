@@ -5,11 +5,9 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\WpfAppCoreMVVMTe
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.pdb
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csprojAssemblyReference.cache
-E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\App.g.cs
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate_MarkupCompile.cache
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate_MarkupCompile.lref
-E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\MainWindow.baml
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.g.resources
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.AssemblyInfoInputs.cache
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.AssemblyInfo.cs
@@ -17,3 +15,5 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTe
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.pdb
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.genruntimeconfig.cache
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.g.cs
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.baml
