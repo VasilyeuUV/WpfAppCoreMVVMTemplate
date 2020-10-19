@@ -1,0 +1,13 @@
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\bin\Debug\netcoreapp3.1\ConsoleAppCoreTest.exe
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\bin\Debug\netcoreapp3.1\ConsoleAppCoreTest.deps.json
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\bin\Debug\netcoreapp3.1\ConsoleAppCoreTest.runtimeconfig.json
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\bin\Debug\netcoreapp3.1\ConsoleAppCoreTest.runtimeconfig.dev.json
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\bin\Debug\netcoreapp3.1\ConsoleAppCoreTest.dll
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\bin\Debug\netcoreapp3.1\ConsoleAppCoreTest.pdb
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.csprojAssemblyReference.cache
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.AssemblyInfoInputs.cache
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.AssemblyInfo.cs
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.csproj.CoreCompileInputs.cache
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.dll
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.pdb
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\Tests\ConsoleAppCoreTest\obj\Debug\netcoreapp3.1\ConsoleAppCoreTest.genruntimeconfig.cache
