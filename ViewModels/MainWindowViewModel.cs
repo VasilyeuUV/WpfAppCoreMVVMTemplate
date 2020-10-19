@@ -1,10 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using WpfAppCoreMVVMTemplate.ViewModels.Base;
 
 namespace WpfAppCoreMVVMTemplate.ViewModels
 {
-    class MainWindowViewModel
+    internal class MainWindowViewModel : ViewModelBase
     {
+
+        #region ЗАГОЛОВОК ОКНА
+
+        private string _title = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;       // титул окна как название проета
+
+        /// <summary>
+        /// Заголовок окна
+        /// </summary>
+        public string Title
+        {
+            get => _title;
+            set => Set(ref _title, value);
+            //{   
+            //// Полная реализация
+            //if (Equals(_title, value)) { return; }
+            //_title = value;
+            //OnPropertyChanged();
+            //}
+        }
+        #endregion
+
+
+        #region ПЕРЕОПРЕДЕЛЕНИЕ DISPOSE
+        ///// <summary>
+        ///// Переопределение метода Dispose для освобождения ресурсов 
+        ///// (При необходимости)
+        ///// </summary>
+        ///// <param name="disposing"></param>
+        //protected override void Dispose(bool disposing)
+        //{
+        //    base.Dispose(disposing);
+        //} 
+        #endregion
     }
 }

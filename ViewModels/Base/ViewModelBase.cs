@@ -7,7 +7,7 @@ namespace WpfAppCoreMVVMTemplate.ViewModels.Base
     /// <summary>
     /// Базовый класс для ViewModels
     /// </summary>
-    internal abstract class ViewModelBase : INotifyPropertyChanged, IDisposable
+    internal abstract class ViewModelBase : INotifyPropertyChanged/*, IDisposable*/
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -50,35 +50,35 @@ namespace WpfAppCoreMVVMTemplate.ViewModels.Base
 
 
 
-        #region IDISPOSABLE
+        //#region IDISPOSABLE
 
-        private bool _disposed;
+        //private bool _disposed;
 
-        ///// <summary>
-        ///// Деструктор (если вдруг)
-        ///// </summary>
-        //~ViewModelBase()
+        /////// <summary>
+        /////// Деструктор (если вдруг)
+        /////// </summary>
+        ////~ViewModelBase()
+        ////{
+        ////    Dispose(false);
+        ////}
+
+        //public void Dispose()
         //{
-        //    Dispose(false);
+        //    Dispose(true);
         //}
 
-        public void Dispose()
-        {
-            Dispose(true);
-        }
 
 
+        //protected virtual void Dispose(bool disposing)
+        //{
+        //    if (!disposing || _disposed) { return; }
 
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposing || _disposed) { return; }
+        //    _disposed = true;
+        //    // Освобождение управляемых ресурсов
 
-            _disposed = true;
-            // Освобождение управляемых ресурсов
+        //}
 
-        }
-
-        #endregion
+        //#endregion
 
 
     }
