@@ -25,7 +25,14 @@
             
         </ToolBarPanel>
         <StatusBar DockPanel.Dock="Bottom">
-            
+            <StatusBarItem MinWidth="150">
+                <TextBlock Text="{Binding StatusBarViewModel.Status}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <ProgressBar Value="15" 
+                             Width="120"
+                             Height="14"/>
+            </StatusBarItem>
         </StatusBar>
         <Grid>
             

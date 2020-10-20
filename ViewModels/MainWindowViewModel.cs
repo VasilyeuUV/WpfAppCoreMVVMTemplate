@@ -23,6 +23,24 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
             //OnPropertyChanged();
             //}
         }
+
+        #endregion
+
+
+        #region STATUSBAR
+        private StatusBarViewModel _statusBarViewModel = null;
+
+        public StatusBarViewModel StatusBarViewModel
+        {
+            get
+            {
+                if (_statusBarViewModel == null)
+                {
+                    _statusBarViewModel = new StatusBarViewModel();
+                }
+                return _statusBarViewModel;
+            }
+        } 
         #endregion
 
 
