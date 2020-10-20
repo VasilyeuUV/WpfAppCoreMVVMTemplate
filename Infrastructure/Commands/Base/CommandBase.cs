@@ -3,6 +3,9 @@ using System.Windows.Input;
 
 namespace WpfAppCoreMVVMTemplate.Infrastructure.Commands.Base
 {
+    /// <summary>
+    /// Базовый класс команды
+    /// </summary>
     internal abstract class CommandBase : ICommand
     {
         public event EventHandler CanExecuteChanged    // событие, когда команда переходит из одного состояния в другое
