@@ -17,7 +17,6 @@
     <Folder Include="Models\" />
     <Folder Include="Services\" />
     <Folder Include="Data\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="Resources\" />
   </ItemGroup>
 
