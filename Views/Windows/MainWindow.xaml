@@ -11,7 +11,24 @@
     <Window.DataContext>
         <vm:MainWindowViewModel/>
     </Window.DataContext>
-    <Grid>
-
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл">
+                <Separator/>
+                <MenuItem Header="Выход"/>
+            </MenuItem>
+            <MenuItem Header="Помощь">
+                <MenuItem Header="О программе"/>
+            </MenuItem>
+        </Menu>
+        <ToolBarPanel DockPanel.Dock="Top">
+            
+        </ToolBarPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            
+        </StatusBar>
+        <Grid>
+            
+        </Grid>
+    </DockPanel>
 </Window>
