@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
 using WpfAppCoreMVVMTemplate.Infrastructure.Commands;
 using WpfAppCoreMVVMTemplate.ViewModels.Base;
@@ -15,10 +12,16 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
     {
 
 
+        #region КОМАНДЫ
+
         #region CloseApplicationCommand
+
         private ICommand _closeApplicationCommand = null;
-        public ICommand CloseApplicationCommand => 
+        public ICommand CloseApplicationCommand =>
             _closeApplicationCommand ??= new LambdaCommand(obj => { Application.Current.Shutdown(); });
+
+        #endregion 
+
         #endregion
 
 

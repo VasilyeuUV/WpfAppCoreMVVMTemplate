@@ -7,6 +7,7 @@
         Title="{Binding Title}" 
         Height="450" Width="800"
         xmlns:vm="clr-namespace:WpfAppCoreMVVMTemplate.ViewModels"
+        xmlns:cmd="clr-namespace:WpfAppCoreMVVMTemplate.Infrastructure.Commands"
         >
     <Window.DataContext>
         <vm:MainWindowViewModel/>
@@ -15,8 +16,13 @@
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Файл">
                 <Separator/>
-                <MenuItem Header="Выход"
-                          Command="{Binding MainMenuViewModel.CloseApplicationCommand}"/>
+                <!--<MenuItem Header="Выход"
+                          Command="{Binding MainMenuViewModel.CloseApplicationCommand}"/>-->
+                <MenuItem Header="Выход">
+                    <MenuItem.Command>
+                        <cmd:CloseApplicationCommand/>
+                    </MenuItem.Command>
+                </MenuItem>
             </MenuItem>
             <MenuItem Header="Редактирование">
                 <MenuItem Header="Копировать"
