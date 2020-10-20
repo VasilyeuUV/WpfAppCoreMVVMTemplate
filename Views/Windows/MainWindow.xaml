@@ -15,7 +15,8 @@
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Файл">
                 <Separator/>
-                <MenuItem Header="Выход"/>
+                <MenuItem Header="Выход"
+                          Command="{Binding MainMenuViewModel.CloseApplicationCommand}"/>
             </MenuItem>
             <MenuItem Header="Редактирование">
                 <MenuItem Header="Копировать"

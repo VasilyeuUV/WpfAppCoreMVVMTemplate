@@ -17,3 +17,4 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTe
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.g.cs
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.baml
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csprojAssemblyReference.cache

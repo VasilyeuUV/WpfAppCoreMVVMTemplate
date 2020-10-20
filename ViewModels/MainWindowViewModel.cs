@@ -27,6 +27,23 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
         #endregion
 
 
+        #region MAINMENU
+        private MainMenuViewModel _mainMenuViewModel = null;
+
+        public MainMenuViewModel MainMenuViewModel
+        {
+            get
+            {
+                if (_mainMenuViewModel == null)
+                {
+                    _mainMenuViewModel = new MainMenuViewModel();
+                }
+                return _mainMenuViewModel;
+            }
+        }
+        #endregion
+
+
         #region STATUSBAR
         private StatusBarViewModel _statusBarViewModel = null;
 
