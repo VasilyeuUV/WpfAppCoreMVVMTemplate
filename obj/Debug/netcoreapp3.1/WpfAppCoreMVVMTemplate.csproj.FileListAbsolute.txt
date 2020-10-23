@@ -19,3 +19,4 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Windows\Ma
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\App.baml
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Resources\Themes\ThemeDictionary.baml
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csprojAssemblyReference.cache
