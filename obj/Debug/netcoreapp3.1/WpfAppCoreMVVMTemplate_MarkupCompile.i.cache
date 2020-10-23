@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\App.xaml
-2-652053914
+3-1288688261
 
 11193952163
 1921654412462
-Resources\Themes\ThemeDictionary.xaml;Views\Windows\MainWindow.xaml;
+Resources\Icons\GeneralIconsDictionary.xaml;Resources\Themes\ThemeDictionary.xaml;Views\Windows\MainWindow.xaml;
 
 True
 
