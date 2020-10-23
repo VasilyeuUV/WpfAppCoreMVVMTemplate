@@ -10,6 +10,12 @@
     <Page Update="Resources\Icons\GeneralIconsDictionary.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\Languages\language.ru-RU.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Languages\language.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Resources\Themes\ThemeDictionary.xaml">
       <SubType>Designer</SubType>
     </Page>
