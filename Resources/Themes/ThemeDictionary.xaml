@@ -1,16 +1,16 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:WpfAppCoreMVVMTemplate.Resources.Themes"                   
+                    xmlns:fr="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
                     >
-
+ <!-- fr - для блокировки ресурсов (после установки значения не изменяемое)-->
 
     <!-- ГЛАВНЫЕ ЦВЕТА -->
 
     <Color x:Key="MainColor">#FF939393</Color>
     <Color x:Key="HoverColor">#FFAAAAAA</Color>
     <Color x:Key="DefaultColor">#FF9BB1C5</Color>
-    <SolidColorBrush x:Key="LightBrush" Color="#FFAFAFAF" />
-    <SolidColorBrush x:Key="ShadeBrush" Color="#FF9F9F9F" />
+    <SolidColorBrush x:Key="LightBrush" Color="#FFAFAFAF" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="ShadeBrush" Color="#FF9F9F9F" fr:Freeze="true"/>
 
     <Color x:Key="TopGradientSelectColor">#FFFFFFFF</Color>
     <Color x:Key="BottomGradientSelectColor">#FF999999</Color>
@@ -18,11 +18,11 @@
     <Color x:Key="BlackColor">#FF000000</Color>
     <Color x:Key="WhiteColor">#FFFFFFFF</Color>
 
-    <SolidColorBrush x:Key="TextBrush" Color="#FF000000" />
-    <SolidColorBrush x:Key="NormalBrush" Color="{StaticResource MainColor}" />
-    <SolidColorBrush x:Key="NormalBorderBrush" Color="#FF9B9999" />
-    <SolidColorBrush x:Key="HoverBrush" Color="{StaticResource HoverColor}" />
-    <SolidColorBrush x:Key="GlyphBrush" Color="#FFFFFFFF" />
+    <SolidColorBrush x:Key="TextBrush" Color="#FF000000" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="NormalBrush" Color="{StaticResource MainColor}" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="NormalBorderBrush" Color="#FF9B9999" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="HoverBrush" Color="{StaticResource HoverColor}" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="GlyphBrush" Color="#FFFFFFFF" fr:Freeze="true"/>
 
     <LinearGradientBrush x:Key="PressedBrush" EndPoint="0.5,0.971" StartPoint="0.5,0.042">
         <GradientStop Color="#4C000000" Offset="0" />
@@ -31,7 +31,7 @@
         <GradientStop Color="#26FFFFFF" Offset="0.479" />
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FFD6D6D6" />
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FFD6D6D6" fr:Freeze="true"/>
 
     <LinearGradientBrush x:Key="SelectedBackgroundBrush" EndPoint="0.5,1" StartPoint="0.5,0">
         <GradientStop Color="{StaticResource TopGradientSelectColor}" Offset="0" />
@@ -44,12 +44,12 @@
         <GradientStop Color="#DDDDDD" Offset="0.5" />
         <GradientStop Color="#CDCDCD" Offset="1" />
     </LinearGradientBrush>
-    
-    
-    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" />
-    <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#FFD4D4D4" />
-    <SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA" />
-    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFFFFFFF" />
+
+
+    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#FFD4D4D4" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFFFFFFF" fr:Freeze="true"/>
 
     <Style x:Key="ButtonFocusVisual">
         <Setter Property="Control.Template">
@@ -65,8 +65,8 @@
         </Setter>
     </Style>
 
-    <SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070" />
-    <SolidColorBrush x:Key="ListBorder" Color="#828790" />
+    <SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="ListBorder" Color="#828790" fr:Freeze="true"/>
     
     <!-- EXPRESSION COMMON VALUES -->
 
@@ -90,8 +90,8 @@
         <GradientStop Color="#888" Offset="1.0" />
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="DefaultedBorderBrush" Color="{StaticResource DefaultColor}" />
-    <SolidColorBrush x:Key="SolidBorderBrush" Color="#888" />
+    <SolidColorBrush x:Key="DefaultedBorderBrush" Color="{StaticResource DefaultColor}" fr:Freeze="true"/>
+    <SolidColorBrush x:Key="SolidBorderBrush" Color="#888" fr:Freeze="true"/>
 
     <Style x:Key="NuclearButtonFocusVisual">
         <Setter Property="Control.Template">
