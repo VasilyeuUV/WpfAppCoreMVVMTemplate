@@ -28,4 +28,7 @@
     <v:String x:Key="MainMenu_Settings">Settings</v:String>
     <v:String x:Key="MainMenu_Settings_Language">Language</v:String>
 
+    <!--ERRORS-->
+    <v:String x:Key="ReverseConvertionNotSupportedException">Reverse conversion is not supported</v:String>    
+    
 </ResourceDictionary>
