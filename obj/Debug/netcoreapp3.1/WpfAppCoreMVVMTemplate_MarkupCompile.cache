@@ -5,16 +5,16 @@ winexe
 C#
 .cs
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\
-WpfAppCoreMVVMTemplate_hmjkzvxt_wpftmp
+WpfAppCoreMVVMTemplate
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\App.xaml
-71089795387
+51887420275
 
-1489477653
-1921654412462
-Resources\Icons\GeneralIconsDictionary.xaml;Resources\Languages\language.ru-RU.xaml;Resources\Languages\language.xaml;Resources\Themes\ThemeDictionary.xaml;Tests\WpfAppCoreTest\App.xaml;Tests\WpfAppCoreTest\MainWindow.xaml;Views\Windows\MainWindow.xaml;
+12-1456637470
+2171946926810
+Resources\Icons\GeneralIconsDictionary.xaml;Resources\Languages\language.ru-RU.xaml;Resources\Languages\language.xaml;Resources\Themes\ThemeDictionary.xaml;Views\Windows\MainWindow.xaml;
 
-True
+False
 
