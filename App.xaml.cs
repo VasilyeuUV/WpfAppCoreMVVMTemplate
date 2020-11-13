@@ -32,5 +32,32 @@ namespace WpfAppCoreMVVMTemplate
         {
             services.AddSingleton<MainWindowViewModel>();   // ViewModel главного окна
         }
+
+        /// <summary>
+        /// Действия при запуске приложения
+        /// </summary>
+        /// <param name="e"></param>
+        protected override async void OnStartup(StartupEventArgs e)
+        {
+            var host = Host;        // создаем хост
+            base.OnStartup(e);
+
+            await host.StartAsync().ConfigureAwait(false);      // запуск хоста в асинхронном режиме
+        }
+
+        /// <summary>
+        /// Действия перед остановкой приложения
+        /// </summary>
+        /// <param name="e"></param>
+        protected override async void OnExit(ExitEventArgs e)
+        {
+            base.OnExit(e);
+
+            var host = Host;
+            await host.StopAsync().ConfigureAwait(false);      // остановка хоста в асинхронном режиме
+            host.Dispose();
+            _host = null;
+        }
+
     }
 }
