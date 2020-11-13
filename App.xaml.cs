@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System.Windows;
+using WpfAppCoreMVVMTemplate.ViewModels;
 
 namespace WpfAppCoreMVVMTemplate
 {
@@ -13,5 +10,9 @@ namespace WpfAppCoreMVVMTemplate
     /// </summary>
     public partial class App : Application
     {
+        internal static void ConfigureServices(HostBuilderContext host, IServiceCollection services)
+        {
+            services.AddSingleton<MainWindowViewModel>();   // ViewModel главного окна
+        }
     }
 }
