@@ -22,7 +22,6 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Resources\Themes
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Resources\Icons\GeneralIconsDictionary.baml
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Resources\Languages\language.ru-RU.baml
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Resources\Languages\language.baml
-E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csprojAssemblyReference.cache
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
@@ -60,3 +59,4 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\runtimes\win\lib
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csproj.CopyComplete
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\appsettings.json

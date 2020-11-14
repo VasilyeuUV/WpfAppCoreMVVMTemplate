@@ -3,16 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" mc:Ignorable="d"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:l="clr-namespace:WpfAppCoreMVVMTemplate"        
+        xmlns:local="clr-namespace:WpfAppCoreMVVMTemplate"        
         Title="{Binding Title}" 
         Height="450" Width="800"
         xmlns:vm="clr-namespace:WpfAppCoreMVVMTemplate.ViewModels"  
         xmlns:cmd="clr-namespace:WpfAppCoreMVVMTemplate.Infrastructure.Commands"
+        DataContext="{Binding MainWindowViewModel, Source={StaticResource VMLocator}}"
         >
         
-    <Window.DataContext>
+    <!--<Window.DataContext>
         <vm:MainWindowViewModel/>
-    </Window.DataContext>
+    </Window.DataContext>-->
     <Window.InputBindings>
         <KeyBinding Modifiers="Ctrl" Key="Q" 
                     Command="{Binding MainMenuViewModel.CloseApplicationCommand}"/>
