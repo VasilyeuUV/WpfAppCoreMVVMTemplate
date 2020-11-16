@@ -77,13 +77,14 @@
             </StatusBarItem>
         </StatusBar>
         <Grid>
-            <components:GaugeIndicator Value="{Binding FuelCount}"/>
+            <!--для проверки DependencyProperties-->
+            <!--<components:GaugeIndicator Value="{Binding FuelCount}"/>
             <Slider VerticalAlignment="Bottom"
                     HorizontalAlignment="Stretch"
                     Margin="20"
                     Minimum="0"
                     Maximum="100"
-                    Value="{Binding FuelCount}"/>
+                    Value="{Binding FuelCount}"/>-->
         </Grid>
     </DockPanel>
 </Window>

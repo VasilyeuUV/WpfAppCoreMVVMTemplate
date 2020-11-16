@@ -62,8 +62,9 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
         #endregion
 
 
-        private double _fuelCount;
-        public double FuelCount { get => _fuelCount; set => Set(ref _fuelCount, value); }
+        // Для проверки DependencyProperties
+        //private double _fuelCount;
+        //public double FuelCount { get => _fuelCount; set => Set(ref _fuelCount, value); }
 
 
         #region ПЕРЕОПРЕДЕЛЕНИЕ DISPOSE
