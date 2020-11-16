@@ -57,8 +57,13 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
                 }
                 return _statusBarViewModel;
             }
-        } 
+        }
+        
         #endregion
+
+
+        private double _fuelCount;
+        public double FuelCount { get => _fuelCount; set => Set(ref _fuelCount, value); }
 
 
         #region ПЕРЕОПРЕДЕЛЕНИЕ DISPOSE

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\App.xaml
-51887420275
+62083287889
 
-13-1954948503
+14-1857778296
 2171946926810
-Resources\Icons\GeneralIconsDictionary.xaml;Resources\Languages\language.ru-RU.xaml;Resources\Languages\language.xaml;Resources\Themes\ThemeDictionary.xaml;Views\Windows\MainWindow.xaml;
+Components\GaugeIndicator.xaml;Resources\Icons\GeneralIconsDictionary.xaml;Resources\Languages\language.ru-RU.xaml;Resources\Languages\language.xaml;Resources\Themes\ThemeDictionary.xaml;Views\Windows\MainWindow.xaml;
 
 False
 
