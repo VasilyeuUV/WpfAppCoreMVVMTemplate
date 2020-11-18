@@ -4,6 +4,7 @@ using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using WpfAppCoreMVVMTemplate.Services;
 using WpfAppCoreMVVMTemplate.ViewModels;
 
 namespace WpfAppCoreMVVMTemplate
@@ -15,14 +16,15 @@ namespace WpfAppCoreMVVMTemplate
     {
 
         /// <summary>
-        /// Подключение сервисов
+        /// Подключение сервисов и ViewModels
         /// </summary>
         /// <param name="host"></param>
         /// <param name="services"></param>
         internal static void ConfigureServices(HostBuilderContext host, IServiceCollection services)
-        {
-            services.AddSingleton<MainWindowViewModel>();   // ViewModel главного окна
-        }
+            => services
+                .RegisterViewModels()
+                .RegisterServices()
+                ;
 
 
 

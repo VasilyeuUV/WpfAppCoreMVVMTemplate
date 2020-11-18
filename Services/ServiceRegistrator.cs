@@ -1,0 +1,24 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace WpfAppCoreMVVMTemplate.Services
+{
+    internal static class ServiceRegistrator
+    {
+
+        /// <summary>
+        /// Регистрация всех сервисов, необходимых приложению
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection RegisterServices(this IServiceCollection services)
+        {
+            // здесь регистрируем сервисы. пример: 
+            // services.AddSingleton<IClassService, ClassService>();    // объект будет создан единожды при первом запросе его
+            // services.AddTrancient<IClassService, ClassService>();    // при каждом обращении будет зарегистрироваться новый временный объект
+            // services.AddScoped<IClassService, ClassService>();       // позволяет зарегистрировать сервис в режиме области видимости
+
+            return services;
+        }
+
+    }
+}

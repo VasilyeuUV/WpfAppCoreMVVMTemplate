@@ -20,7 +20,6 @@
     <Folder Include="Models\_Controllers\" />
     <Folder Include="Models\_Providers\" />
     <Folder Include="Models\_ModelsInterfaces\" />
-    <Folder Include="Services\" />
     <Folder Include="Data\" />
     <Folder Include="Views\Pages\" />
   </ItemGroup>
