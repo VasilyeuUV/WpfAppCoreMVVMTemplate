@@ -62,3 +62,4 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTe
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\appsettings.json
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Controls\GaugeIndicator.g.cs
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Controls\GaugeIndicator.baml
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csprojAssemblyReference.cache
