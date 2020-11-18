@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace WpfAppCoreMVVMTemplate.Infrastructure.Converters.Base
+namespace WpfAppCoreMVVMTemplate.Views.Controls
 {
 
     /// <summary>

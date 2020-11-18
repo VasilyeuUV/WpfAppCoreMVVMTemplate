@@ -7,8 +7,8 @@
         Title="{Binding Title}" 
         Height="450" Width="800"
         xmlns:vm="clr-namespace:WpfAppCoreMVVMTemplate.ViewModels"  
-        xmlns:cmd="clr-namespace:WpfAppCoreMVVMTemplate.Infrastructure.Commands"
-        xmlns:components="clr-namespace:WpfAppCoreMVVMTemplate.Components"
+        xmlns:cmd="clr-namespace:WpfAppCoreMVVMTemplate.ViewModels.Commands"
+        xmlns:controls="clr-namespace:WpfAppCoreMVVMTemplate.Views.Controls"
         DataContext="{Binding MainWindowViewModel, Source={StaticResource VMLocator}}"
         >
         
@@ -78,7 +78,7 @@
         </StatusBar>
         <Grid>
             <!--для проверки DependencyProperties-->
-            <!--<components:GaugeIndicator Value="{Binding FuelCount}"/>
+            <!--<controls:GaugeIndicator Value="{Binding FuelCount}"/>
             <Slider VerticalAlignment="Bottom"
                     HorizontalAlignment="Stretch"
                     Margin="20"

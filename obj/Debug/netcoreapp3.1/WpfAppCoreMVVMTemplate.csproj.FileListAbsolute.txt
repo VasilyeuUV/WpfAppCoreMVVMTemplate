@@ -60,6 +60,5 @@ E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\runtimes\unix\li
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csproj.CopyComplete
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\bin\Debug\netcoreapp3.1\appsettings.json
-E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Components\GaugeIndicator.g.cs
-E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Components\GaugeIndicator.baml
-E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\WpfAppCoreMVVMTemplate.csprojAssemblyReference.cache
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Controls\GaugeIndicator.g.cs
+E:\_projects\wpf\WpfAppCoreMVVMTemplate\obj\Debug\netcoreapp3.1\Views\Controls\GaugeIndicator.baml

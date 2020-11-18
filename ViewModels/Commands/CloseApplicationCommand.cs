@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using WpfAppCoreMVVMTemplate.Infrastructure.Commands.Base;
+using WpfAppCoreMVVMTemplate.ViewModels.Commands.Base;
 
-namespace WpfAppCoreMVVMTemplate.Infrastructure.Commands
+namespace WpfAppCoreMVVMTemplate.ViewModels.Commands
 {
 
     /// <summary>

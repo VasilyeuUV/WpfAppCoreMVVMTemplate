@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace WpfAppCoreMVVMTemplate.Infrastructure.Commands.Base
+namespace WpfAppCoreMVVMTemplate.ViewModels.Commands.Base
 {
     /// <summary>
     /// Базовый класс команды

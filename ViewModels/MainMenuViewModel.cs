@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Input;
-using WpfAppCoreMVVMTemplate.Infrastructure.Commands;
 using WpfAppCoreMVVMTemplate.ViewModels.Base;
+using WpfAppCoreMVVMTemplate.ViewModels.Commands;
 
 namespace WpfAppCoreMVVMTemplate.ViewModels
 {
