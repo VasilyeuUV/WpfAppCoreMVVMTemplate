@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows;
 //using System.Windows.Controls;
 
@@ -11,6 +12,8 @@ namespace WpfAppCoreMVVMTemplate.Components
     {
 
         #region ValueProperty
+
+        // расшифровка сниппета propdb
 
         public static readonly DependencyProperty ValueProperty =    // поле типа DependencyProperty (Property в имени обязательно)
             DependencyProperty.Register(                             // регистрация свойства зависимости
@@ -61,6 +64,7 @@ namespace WpfAppCoreMVVMTemplate.Components
         /// <summary>
         /// Само cвойство
         /// </summary>
+        [Description("Описание свойства")]              // описание свойства
         public double Value
         {
             get => (double)GetValue(ValueProperty);
@@ -68,6 +72,7 @@ namespace WpfAppCoreMVVMTemplate.Components
         } 
 
         #endregion
+
 
         public GaugeIndicator()
         {

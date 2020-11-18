@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\_projects\wpf\WpfAppCoreMVVMTemplate\App.xaml
 62083287889
 
-16-438181532
+18-1930612192
 2171946926810
 Components\GaugeIndicator.xaml;Resources\Icons\GeneralIconsDictionary.xaml;Resources\Languages\language.ru-RU.xaml;Resources\Languages\language.xaml;Resources\Themes\ThemeDictionary.xaml;Views\Windows\MainWindow.xaml;
 
-True
+False
 

@@ -53,7 +53,7 @@ namespace WpfAppCoreMVVMTemplate.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfAppCoreMVVMTemplate;component/components/gaugeindicator.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfAppCoreMVVMTemplate;V1.0.0.0;component/components/gaugeindicator.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Components\GaugeIndicator.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

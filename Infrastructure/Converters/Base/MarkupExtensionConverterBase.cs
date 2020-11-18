@@ -1,14 +1,26 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
+using System.Windows.Markup;
 
 namespace WpfAppCoreMVVMTemplate.Infrastructure.Converters.Base
 {
     /// <summary>
-    /// Базовый класс конвертера
+    /// Базовый класс конвертера с расширением разметки
     /// </summary>
-    internal abstract class ConverterBase : IValueConverter
+    internal abstract class MarkupExtensionConverterBase : MarkupExtension, IValueConverter
     {
+
+        #region MarkupExtension (расширение разметки)
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="serviceProvider"></param>
+        /// <returns></returns>
+        public override object ProvideValue(IServiceProvider serviceProvider) => this;
+
+        #endregion
 
         #region IValueConverter
 
@@ -32,8 +44,9 @@ namespace WpfAppCoreMVVMTemplate.Infrastructure.Converters.Base
         /// <param name="culture">Используемая культура</param>
         /// <returns></returns>
         public virtual object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
-            throw new NotSupportedException("Обратное преобразование не поддерживается"); 
+            throw new NotSupportedException("Обратное преобразование не поддерживается");
         #endregion
+
 
     }
 }
