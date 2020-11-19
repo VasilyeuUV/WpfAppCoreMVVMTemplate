@@ -1,7 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using WpfAppCoreMVVMTemplate.Services._ServiceInterfaces;
+using WpfAppCoreMVVMTemplate.Services.Examples;
 
 namespace WpfAppCoreMVVMTemplate.Services
 {
+    /// <summary>
+    /// Регистратор сервисов
+    /// </summary>
     internal static class ServiceRegistrator
     {
 
@@ -17,8 +22,9 @@ namespace WpfAppCoreMVVMTemplate.Services
             // services.AddTrancient<IClassService, ClassService>();    // при каждом обращении будет зарегистрироваться новый временный объект
             // services.AddScoped<IClassService, ClassService>();       // позволяет зарегистрировать сервис в режиме области видимости
 
+            services.AddTransient<IAsyncServiceExample, AsyncServiceExample>(); // пример регистрации асинхронного сервиса, удалить
+
             return services;
         }
-
     }
 }

@@ -3,7 +3,7 @@ using System.Windows.Input;
 using WpfAppCoreMVVMTemplate.ViewModels.Base;
 using WpfAppCoreMVVMTemplate.ViewModels.Commands;
 
-namespace WpfAppCoreMVVMTemplate.ViewModels
+namespace WpfAppCoreMVVMTemplate.ViewModels.MainWindow
 {
     /// <summary>
     /// ViewModel Главного меню приложения

@@ -1,6 +1,7 @@
-﻿using WpfAppCoreMVVMTemplate.ViewModels.Base;
+﻿using WpfAppCoreMVVMTemplate.Services._ServiceInterfaces;
+using WpfAppCoreMVVMTemplate.ViewModels.Base;
 
-namespace WpfAppCoreMVVMTemplate.ViewModels
+namespace WpfAppCoreMVVMTemplate.ViewModels.MainWindow
 {
     internal class MainWindowViewModel : ViewModelBase
     {
@@ -26,7 +27,6 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
 
         #endregion
 
-
         #region MAINMENU
         private MainMenuViewModel _mainMenuViewModel = null;
 
@@ -43,10 +43,8 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
         }
         #endregion
 
-
         #region STATUSBAR
         private StatusBarViewModel _statusBarViewModel = null;
-
         public StatusBarViewModel StatusBarViewModel
         {
             get
@@ -58,13 +56,21 @@ namespace WpfAppCoreMVVMTemplate.ViewModels
                 return _statusBarViewModel;
             }
         }
-        
+
         #endregion
 
+        #region SERVICES
+        private readonly IAsyncServiceExample _asyncService;    // пример асинхронного сервиса. Удалить.
 
-        // Для проверки DependencyProperties
-        //private double _fuelCount;
-        //public double FuelCount { get => _fuelCount; set => Set(ref _fuelCount, value); }
+        #endregion
+
+        public MainWindowViewModel(IAsyncServiceExample asyncService)
+        {
+            this._asyncService = asyncService;                  // пример использования асинхронного сервиса. Удалить
+        }
+
+
+
 
 
         #region ПЕРЕОПРЕДЕЛЕНИЕ DISPOSE

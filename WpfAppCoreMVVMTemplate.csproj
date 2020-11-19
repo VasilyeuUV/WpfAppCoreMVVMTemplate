@@ -19,7 +19,7 @@
     <Folder Include="Models\_DataTypesInterfaces\" />
     <Folder Include="Models\_Controllers\" />
     <Folder Include="Models\_Providers\" />
-    <Folder Include="Models\_ModelsInterfaces\" />
+    <Folder Include="Models\_ModelInterfaces\" />
     <Folder Include="Data\" />
     <Folder Include="Views\Pages\" />
   </ItemGroup>

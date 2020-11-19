@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using WpfAppCoreMVVMTemplate.ViewModels.Base;
+﻿using WpfAppCoreMVVMTemplate.ViewModels.Base;
 
-namespace WpfAppCoreMVVMTemplate.ViewModels
+namespace WpfAppCoreMVVMTemplate.ViewModels.MainWindow
 {
     internal class StatusBarViewModel : ViewModelBase
     {
